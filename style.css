@@ -299,5 +299,8 @@ transform: scale(1.1);
     height: auto;                 
     padding: 120px 0 40px; 
     }
+    .about-col-1 img{
+        width: 100%;
+        height:100%;
 }
 
