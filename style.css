@@ -292,7 +292,11 @@ transform: scale(1.1);
 }
 @media (max-width: 768px) {
     #header {
-        background-position: top;
+        background-size: cover;   
+    background-position: top;     
+    background-repeat: no-repeat; 
+    height: auto;                 
+    padding: 120px 0 40px; 
     }
 }
 
