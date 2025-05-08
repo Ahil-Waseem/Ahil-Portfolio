@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahil Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3ec4eb14a5.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo4.png" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm <span>Ahil</span> Waseem <br>From India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- -------------about--------------->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/Ahil-profile2.jpg" alt="home-image">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>A motivated professional with a Bachelor’s in Art’s Science and a certification in
+                        Full Stack Java Development. Seeking to transition into
+                        the IT industry, utilizing my problem-solving skills and
+                        knowledge in HTML, CSS, JavaScript, web development
+                        technologies, and multimedia editing to contribute
+                        effectively to software and media projects while
+                        advancing my technical capabilities. </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <!-- <p class="tab-links">Skills</p> -->
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI?UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Building Android/iOS apps</li>
+
+                        </ul>
+                    </div>
+                    <!-- <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span></span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Building Android/iOS apps</li>
+
+                        </ul>
+                    </div> -->
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023-2024</span><br>Full Stack Developer training at IIHT Institute</li>
+                            <li><span>2020-2023</span><br>BA from JNCU Ballia</li>
+                            <li><span>2019</span><br>12th from Harish Chandra Inter-Collage, Ballia </li>
+                            <li><span>2017</span><br>10th from Harish Chandra Inter-Collage, Ballia</li>
+
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+            <!-- ------------services-------- -->
+            <div id="services">
+                <div class="container2">
+                    <h1 class="sub-title">My Services</h1>
+                    <div class="services-list">
+                        <div>
+                            <i class="fa-solid fa-laptop-code"></i>
+                            <h2>Web Design</h2>
+                            <p>I will provide a full web design for our client using HTML, CSS and JavaScript</p>
+                            <a href="#">Learn more</a>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-code"></i>
+                            <h2>UI/UX Design</h2>
+                            <p>I will provide a full web design for our client using HTML, CSS and JavaScript</p>
+                            <a href="#">Learn more</a>
+                        </div>
+                        <div>
+                            <i class="fa-brands fa-app-store"></i>
+                            <h2>App Design</h2>
+                            <p>I will provide a full web design for our client using HTML, CSS and JavaScript</p>
+                            <a href="#">Learn more</a>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <h2>Shopping Cart Design</h2>
+                            <p>I will provide a full web design for our client using HTML, CSS and JavaScript</p>
+                            <a href="#">Learn more</a>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-person-dots-from-line"></i>
+                            <h2>Frontend Development</h2>
+                            <p>I will provide a full web design for our client using HTML, CSS and JavaScript</p>
+                            <a href="#">Learn more</a>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-server"></i>
+                            <h2>Backend Development</h2>
+                            <p>I will provide a full web design for our client using HTML, CSS and JavaScript</p>
+                            <a href="#">Learn more</a>
+                        </div>
+                        <div>
+                            <i class="fa-brands fa-searchengin"></i>
+                            <h2>SEO</h2>
+                            <p>I will provide a full web design for our client using HTML, CSS and JavaScript</p>
+                            <a href="#">Learn more</a>
+                        </div>
+                        <div>
+                            <i class="fa-brands fa-wordpress"></i>
+                            <h2>WordPress</h2>
+                            <p>I will provide a full web design for our client using HTML, CSS and JavaScript</p>
+                            <a href="#">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<!-- -----------portfolio---------------- -->
+
+<div id="portfolio">
+    <div class="container2">
+        <div class="sub-title">My Work</div>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/card-img.jpg" alt="card-image">
+                <div class="layer">
+                    <h3>Card Design</h3>
+                    <p>Used HTML and CSS skill to create this design</p>
+                    <a href="https://ahil-waseem.github.io/HTML-CSS-Project2/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/cart-img.jpg" alt="cart-image">
+                <div class="layer">
+                    <h3>MERN stack project</h3>
+                    <p>Created by using the skills of MERN</p>
+                    <a href="https://mern-project1-one.vercel.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/website-img-1.jpg" alt="website-image">
+                <div class="layer">
+                    <h3>Frontend Website</h3>
+                    <p>Created by using the skill of HTML and CSS from Figma Design</p>
+                    <a href="https://ahil-waseem.github.io/Frontend-Theemwiz/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/amazon-img.jpg" alt="website-image">
+                <div class="layer">
+                    <h3>Amazon.in landing page</h3>
+                    <p>Used HTML and CSS skill to create this design</p>
+                    <a href="https://ahil-waseem.github.io/AmazonFrontend/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+            <!-- <script>
+                var tablinks = document.getElementsByClassName("tab-links");
+                var tabcontents = document.getElementsByClassName("tab-contents");
+                function opentab(tabname) {
+                    for (tablink of tablinks) {
+                        tablink.classList.remove("active-link");
+                    }
+                    for (tabcontent of tabcontents) {
+                        tabcontent.classList.remove("active-tab");
+                    }
+                    event.currentTarget.classList.add("active-link");
+                    document.getElementById(tabname).classList.add("active-tab");
+
+                }
+            </script> -->
+
+</body>
+
+</html>
