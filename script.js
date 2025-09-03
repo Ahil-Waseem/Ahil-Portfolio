@@ -10,4 +10,9 @@ function opentab(tabname) {
     event.currentTarget.classList.add("active-link");
     document.getElementById(tabname).classList.add("active-tab");
 
+
+}
+function toggleMenu() {
+    const menu = document.getElementById("menu");
+    menu.classList.toggle("show-menu");
 }
