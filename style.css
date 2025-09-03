@@ -416,6 +416,22 @@ transform: scale(1.1);
      #header {
         background-image: none;
      }
+       .tab-titles{
+        justify-content: center;
+     }
+        .about-col-2 p {
+            margin: 20px;
+        }
+        .sub-title{
+            text-align: center;
+        }
+                .services-list{
+                    margin: 20px;
+                }
+                #portfolio {
+                    padding: 50px 20px;
+                }
     
 }
+
 
